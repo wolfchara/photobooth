@@ -101,3 +101,54 @@ a.ddott:hover {
   height: 100px;
   background: #222;
 }
+
+.price__container {
+  height: 743px;
+  background: url(../img/main_bachground.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.price__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.price__container__wrapper {
+  color: white;
+  height: 600px;
+  display: flex;
+}
+
+.price__container__wrapper-content {
+  position: relative;
+  background: rgba(35, 35, 35, 0.7);
+  max-width: 300px;
+  margin: 20px;
+}
+
+.price__container__wrapper h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.price__container__wrapper p {
+    padding: 10px;
+  text-align: center;
+}
+
+.price__container__wrapper-content a {
+  width: 100%;
+}
+
+.first-price__container__wrapper-content a {
+  background: #06a71b;
+}
+
+.second-price__container__wrapper-content a {
+  background: #c9df03;
+}
+
+.third-price__container__wrapper-content a {
+  background: #c71f02;
+}
