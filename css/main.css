@@ -1,0 +1,103 @@
+* {
+  transition: all 0.4s ease-in-out;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  line-height: 1;
+}
+
+/*navbar*/
+.wrapper {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background: linear-gradient(to right, #5474fd, #99acfe);
+  z-index: 1;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.nav__menu {
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-menu__item a {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+
+.nav-menu__item a:hover {
+  background: #0460a1;
+  transition: all 0.4s ease;
+}
+
+.main__content {
+  height: 600px;
+  background: url(../img/main_image.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__content__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.contact {
+  height: 100px;
+  background: linear-gradient(to left, #5474fd, #99acfe);
+  display: flex;
+  align-items: center;
+}
+
+.ccd {
+  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+a.ddott {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 auto;
+  display: block;
+  line-height: 50px;
+  height: 50px;
+  width: 25%;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 100px 0 #fff, 1px 76px 10px #000;
+  color: #fff;
+  background: #0460a1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a.ddott:hover {
+  text-shadow: 0 50px 0 #fff, 1px 51px 20px #fff;
+  margin-top: -50px;
+  height: 100px;
+  background: #222;
+}
