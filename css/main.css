@@ -116,7 +116,7 @@ a.ddott:hover {
 
 .price__container__wrapper {
   color: white;
-  height: 600px;
+  max-height: 600px;
   display: flex;
 }
 
@@ -125,6 +125,7 @@ a.ddott:hover {
   background: rgba(35, 35, 35, 0.7);
   max-width: 300px;
   margin: 20px;
+  padding-bottom: 20px;
 }
 
 .price__container__wrapper h3 {
