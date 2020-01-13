@@ -106,6 +106,7 @@ a.ddott:hover {
   height: 743px;
   background: url(../img/main_bachground.jpg) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .price__container {
@@ -134,7 +135,7 @@ a.ddott:hover {
 }
 
 .price__container__wrapper p {
-    padding: 10px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -142,7 +143,7 @@ a.ddott:hover {
   width: 100%;
 }
 
-.first-price__container__wrapper-content a {
+/* .first-price__container__wrapper-content a {
   background: #06a71b;
 }
 
@@ -152,4 +153,104 @@ a.ddott:hover {
 
 .third-price__container__wrapper-content a {
   background: #c71f02;
+} */
+
+.additional__title {
+  text-align: center;
+  margin: 20px 50px 30px;
+}
+
+.additional__backdrop,
+.additional__custom-backdrop,
+.additional__printing,
+.additional__stream,
+.additional__USB {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px 0 30px;
+}
+
+.additional__backdrop-image,
+.additional__backdrop-text,
+.additional__custom-backdrop-image,
+.additional__custom-backdrop-text,
+.additional__printing-image,
+.additional__printing-text,
+.additional__stream-image,
+.additional__stream-text,
+.additional__USB-image,
+.additional__USB-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.additional__text {
+  font-size: x-large;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.category {
+  border: 6px solid #ffffff;
+  float: left;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-transition: 0.5s Ease;
+  -moz-transition: 0.5s Ease;
+  -o-transition: 0.5s Ease;
+  transition: 0.5s Ease;
+}
+
+.category img {
+  width: 375px;
+  height: auto;
+}
+
+.smooth {
+  opacity: 1;
+}
+
+.smooth:hover img {
+  opacity: 0.7;
+  box-shadow: 0px 0px 10px #333333;
+}
+
+.go-top {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  top: 600px;
+  width: 360px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  -webkit-transition: 0.5s Ease;
+  -moz-transition: 0.5s Ease;
+  -o-transition: 0.5s Ease;
+  transition: 0.5s Ease;
+}
+
+.smooth:hover > .go-top {
+  top: 0px;
+}
+
+.go-top p {
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.go-top h3 {
+  margin: 10px 0 20px;
 }
