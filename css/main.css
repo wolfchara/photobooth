@@ -188,6 +188,12 @@ a.ddott:hover {
   width: 50%;
 }
 
+.additional__image img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .additional__text {
   font-size: x-large;
 }
@@ -247,10 +253,18 @@ a.ddott:hover {
 }
 
 .go-top p {
+  margin: 10px 5px 0;
   font-size: 20px;
   line-height: 1.3em;
 }
 
 .go-top h3 {
   margin: 10px 0 20px;
+  border: none;
+}
+
+hr {
+  background-color: #fff;
+  color: #fff;
+  height: 1px;
 }
