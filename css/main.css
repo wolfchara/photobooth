@@ -192,9 +192,18 @@ a.ddott:hover {
   background: #c71f02;
 } */
 
+.additional > div:nth-child(2n+1) {
+  background: #95a9fe;
+}
+
+.additional > div:nth-child(2n) {
+  background: #5575FD;
+}
+
 .additional__title {
   text-align: center;
-  margin: 20px 50px 30px;
+  padding: 20px 50px 30px;
+  background: #95a9fe;
 }
 
 .additional__backdrop,
@@ -206,7 +215,7 @@ a.ddott:hover {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 20px 0 30px;
+  padding: 20px 0 30px;
 }
 
 .additional__backdrop-image,
