@@ -252,6 +252,7 @@ a.ddott:hover {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 0 10%;
 }
 
 .category {
@@ -340,4 +341,8 @@ hr {
 
 .icon-container p:nth-child(2) {
   font-size: x-large;
+}
+
+.icon-container svg:hover, img:hover {
+  transform: rotate(-360deg);
 }
