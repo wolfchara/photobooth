@@ -192,6 +192,10 @@ a.ddott:hover {
   background: #c71f02;
 } */
 
+.additional > div{
+  padding: 0 10%;
+}
+
 .additional > div:nth-child(2n+1) {
   background: #95a9fe;
 }
@@ -202,7 +206,7 @@ a.ddott:hover {
 
 .additional__title {
   text-align: center;
-  padding: 20px 50px 30px;
+  padding: 20px 10%;
   background: #95a9fe;
 }
 
