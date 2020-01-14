@@ -373,7 +373,7 @@ svg:hover {
   height: 60px;
   border-radius: 50%;
   text-decoration: none;
-  background: #0460A1;
+  background: #0460a1;
   bottom: 15px;
   left: 15px;
   transform: rotate(180deg);
@@ -427,6 +427,10 @@ svg:hover {
   }
 }
 
+.map {
+  padding: 10px 0;
+}
+
 /* ABOUT */
 
 .about__container {
@@ -446,4 +450,10 @@ svg:hover {
   padding: 20px 0;
   display: flex;
   justify-content: center;
+}
+
+/* SERVICES */
+
+.services__container .price__container__wrapper {
+  background: linear-gradient(to top, #5474fd, #99acfe);
 }
