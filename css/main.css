@@ -426,3 +426,24 @@ svg:hover {
     -webkit-transform: rotate(0deg);
   }
 }
+
+/* ABOUT */
+
+.about__container {
+  padding: 0 10%;
+}
+
+.head__title h2 {
+  padding: 100px 0 10px;
+  text-align: center;
+}
+
+.head__title hr {
+  margin: 0 10%;
+}
+
+.about__text {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
