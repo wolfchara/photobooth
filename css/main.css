@@ -457,3 +457,51 @@ svg:hover {
 .services__container .price__container__wrapper {
   background: linear-gradient(to top, #5474fd, #99acfe);
 }
+
+.collapsible {
+  background-color: #99acfe;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  color: #fff;
+  background-color: #5474fd;
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  margin: 7px 0;
+  padding: 0 18px;
+  max-height: 0;
+  line-height: 1.3;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.info__container {
+  padding: 0 10%;
+}
+
+.info__button__container {
+  margin-top: 10px;
+}
