@@ -458,6 +458,8 @@ svg:hover {
   background: linear-gradient(to top, #5474fd, #99acfe);
 }
 
+/* INFO */
+
 .collapsible {
   background-color: #99acfe;
   color: #000;
@@ -504,4 +506,80 @@ svg:hover {
 
 .info__button__container {
   margin-top: 10px;
+}
+
+/* CONTACTS */
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.contacts p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contacts img {
+  padding: 0 10px;
+}
+
+.contact_wrapper-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact_wrapper-form form input:not([type="submit"]),
+.contact_wrapper-form form textarea {
+  max-width: 600px;
+  width: 100%;
+  border: none;
+  height: 50px;
+  background-color: #8ca1fe;
+  opacity: 0.8;
+  color: #000;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.contact_wrapper-form form input:not([type="submit"]):hover,
+.contact_wrapper-form form textarea:hover {
+  box-shadow: 5px 0 0 0 #5575fd inset;
+  opacity: 1;
+}
+
+::-webkit-input-placeholder {
+  color: #000;
+}
+
+.contact_wrapper-form form textarea {
+  max-height: 250px;
+  height: 250px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact_wrapper-form form input[type="submit"] {
+  background-color: #8ca1fe;
+  margin-bottom: 20px;
+}
+
+.contacts__button div {
+  width: 100%;
 }
