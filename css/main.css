@@ -586,7 +586,7 @@ svg:hover {
   width: 100%;
 }
 
-.gallery__wedding {
+.gallery__container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -599,7 +599,7 @@ svg:hover {
   box-shadow: 0px 0px 5px #333333;
 }
 
-.gallery__wedding .wedding__title, .wedding__text {
+.gallery__container .gallery__container-title, .gallery__container-text {
   padding: 5px;
 }
 
