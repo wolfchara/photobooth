@@ -210,6 +210,11 @@ a.ddott:hover {
   background: #95a9fe;
 }
 
+.additional__title .call-to-us {
+  text-decoration: none;
+  color: #000;
+}
+
 .additional__backdrop,
 .additional__custom-backdrop,
 .additional__printing,
