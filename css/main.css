@@ -714,10 +714,11 @@ p {
   left: 50%;
 }
 
-.halloween__container__content p{
+.halloween__container__content p, .event__container__content__date-header p{
   text-align: center;
 }
 
 .birthday__container__content__block-image img {
   width: 70%;
 }
+
