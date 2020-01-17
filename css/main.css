@@ -632,6 +632,7 @@ svg:hover {
   padding: 20px;
   margin: 20px;
   border: 1px solid #1f2022;
+  position: relative;
 }
 
 .blog__container__content__block-image {
@@ -648,7 +649,7 @@ svg:hover {
 
 .blog__container__content__date-header {
   width: 70%;
-  position: relative;
+  margin-bottom: 50px;
 }
 
 .blog__container__content__date-header h2,
@@ -670,10 +671,51 @@ p {
   transition-duration: 0.4s;
   cursor: pointer;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
 }
 
 .blog__button:hover {
   background-color: #0460a1;
   color: white;
+}
+
+/* BLOG-WEDDING */
+
+.events__container {
+  margin: 0 10%;
+}
+
+.events__container__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #1f2022;
+}
+
+.events__container__content__block-image {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.events__container__content__block-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.events__container__content__date-header p {
+  padding: 20 px;
+}
+
+.halloween__container__content__block-image img {
+  width: 70%;
+  left: 50%;
+}
+
+.halloween__container__content p{
+  text-align: center;
 }
