@@ -679,8 +679,6 @@ p {
   color: white;
 }
 
-/* BLOG-WEDDING */
-
 .events__container {
   margin: 0 10%;
 }
@@ -718,4 +716,8 @@ p {
 
 .halloween__container__content p{
   text-align: center;
+}
+
+.birthday__container__content__block-image img {
+  width: 70%;
 }
