@@ -477,8 +477,7 @@ svg:hover {
   font-size: 15px;
 }
 
-.info__button__container
-.active,
+.info__button__container .active,
 .collapsible:hover {
   color: #fff;
   background-color: #5474fd;
@@ -492,8 +491,7 @@ svg:hover {
   margin-left: 5px;
 }
 
-.info__button__container
-.active:after {
+.info__button__container .active:after {
   content: "\2212";
 }
 
@@ -604,7 +602,8 @@ svg:hover {
   box-shadow: 0px 0px 5px #333333;
 }
 
-.gallery__container .gallery__container-title, .gallery__container-text {
+.gallery__container .gallery__container-title,
+.gallery__container-text {
   padding: 5px;
 }
 
@@ -620,4 +619,60 @@ svg:hover {
 
 .owl-nav {
   display: none;
+}
+
+/* BLOG */
+
+.blog__container {
+  margin: 0 10%;
+}
+
+.blog__container__content {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #1f2022;
+}
+
+.blog__container__content__block-image {
+  max-width: 350px;
+  max-height: 250px;
+  margin-right: 20px;
+}
+
+.blog__container__content__block-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog__container__content__date-header {
+  width: 70%;
+  position: relative;
+}
+
+.blog__container__content__date-header h2,
+p {
+  padding: 5px;
+}
+
+.blog__button {
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  border: 2px solid #0460a1;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+
+.blog__button:hover {
+  background-color: #0460a1;
+  color: white;
 }
