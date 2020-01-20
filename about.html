@@ -18,13 +18,24 @@
     <title>Artlook</title>
   </head>
   <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">ГЛАВНАЯ</a>
+        <a href="services.html">УСЛУГИ</a>
+        <a href="gallery.html">ГАЛЕРЕЯ</a>
+        <a href="blog.html">БЛОГ</a>
+        <a href="info.html">ИНФОРМАЦИЯ</a>
+        <a href="contacts.html">КОНТАКТЫ</a>
+      </div>
+    </div>
     <div class="wrapper">
       <div class="nav__menu">
         <div class="nav-menu__item">
           <a href="index.html">ГЛАВНАЯ</a>
         </div>
         <div class="nav-menu__item">
-          <a href="#about">О НАС</a>
+          <a href="about.html">О НАС</a>
         </div>
         <div class="nav-menu__item">
           <a href="services.html">УСЛУГИ</a>
@@ -40,6 +51,9 @@
         </div>
         <div class="nav-menu__item">
           <a href="contacts.html">КОНТАКТЫ</a>
+        </div>
+        <div class="nav__menu-mobile">
+          <span href="" onclick="openNav()">&#9776;МЕНЮ</span>
         </div>
       </div>
     </div>
@@ -172,5 +186,6 @@
         </a>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
