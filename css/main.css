@@ -195,10 +195,12 @@ a.ddott:hover {
   background: #c71f02;
 } */
 
-.additional > div {
-  padding: 0 10%;
-}
-
+ /* .additional > div {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+} */
+/*
 .additional > div:nth-child(2n + 1) {
   background: #95a9fe;
 }
@@ -206,16 +208,26 @@ a.ddott:hover {
 .additional > div:nth-child(2n) {
   background: #5575fd;
 }
-
+*/
 .additional__title {
   text-align: center;
   padding: 20px 10%;
   background: #95a9fe;
 }
-
+/*
 .additional__title .call-to-us {
   text-decoration: none;
   color: #000;
+}
+*/
+
+
+.additional__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 10%;
 }
 
 .additional__backdrop,
@@ -223,13 +235,15 @@ a.ddott:hover {
 .additional__printing,
 .additional__stream,
 .additional__USB {
+  /* width: 350px; */
+  padding: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding: 20px 0 30px;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
 }
 
+/*
 .additional__backdrop-image,
 .additional__backdrop-text,
 .additional__custom-backdrop-image,
@@ -243,9 +257,9 @@ a.ddott:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-}
-
+  width: 100%;
+} */
+/*
 .additional__image img:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -254,7 +268,7 @@ a.ddott:hover {
 
 .additional__text {
   font-size: x-large;
-}
+} */
 
 .categories {
   display: flex;
@@ -296,7 +310,7 @@ a.ddott:hover {
   position: absolute;
   bottom: 0px;
   top: 600px;
-  width: 360px;
+  /* width: 360px; */
   text-align: center;
   font-size: 20px;
   margin: 10px;
