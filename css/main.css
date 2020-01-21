@@ -896,7 +896,36 @@ svg:hover {
 }
 
 .events__container__content__date-header p {
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
   padding: 20 px;
+}
+
+@media screen and (max-width: 600px) {
+  .events__container__content__block-image{
+    padding: 0 0 10px;
+  }
+  .events__container__content {
+    padding: 10px;
+  }
+  .events__container__content__date-header p {
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    font-size: 15px;
+    padding: 10 px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .events__container__content__date-header p {
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  .events__container__content {
+    padding: 10px 0;
+  }
 }
 
 .halloween__container__content__block-image img {
