@@ -219,6 +219,7 @@ html {
 .price__container__wrapper p {
   padding: 10px 20px;
   letter-spacing: 1px;
+  line-height: 1.3;
   /* text-align: center; */
 }
 
