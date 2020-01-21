@@ -902,6 +902,9 @@ svg:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .events__container {
+    margin: 0 5%;
+  }
   .events__container__content__block-image{
     padding: 0 0 10px;
   }
@@ -917,6 +920,9 @@ svg:hover {
 }
 
 @media screen and (max-width: 470px) {
+  .events__container {
+    margin: 0 2%;
+  }
   .events__container__content__date-header p {
     letter-spacing: 0.1rem;
     line-height: 1.2;
