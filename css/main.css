@@ -223,7 +223,7 @@ html {
 }
 
 .price__container__wrapper-content a {
-  padding-top: 10px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -297,6 +297,11 @@ html {
   text-align: center;
 }
 
+.additional__image {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 /*
 .additional__backdrop-image,
 .additional__backdrop-text,
@@ -830,6 +835,7 @@ svg:hover {
     max-height: 250px;
   }
   .blog__container__content__date-header {
+    width: 85%;
     position: static;
     display: flex;
     flex-direction: column;
@@ -849,13 +855,16 @@ svg:hover {
   }
 }
 
-@media screen and (max-width: 700px) {
-  .blog__container__content__date-header h2 {
+@media screen and (max-width: 400px) {
+  .blog__container__content__date-header {
+    width: 90%;
+  }
+  /* .blog__container__content__date-header h2 {
     font-size: 16px;
   }
   .blog__container__content__date-header p {
     font-size: 12px;
-  }
+  } */
 }
 
 .events__container {
